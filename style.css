@@ -1,0 +1,181 @@
+.nav-link:hover {
+    color: rgb(38, 206, 38);
+}
+
+.hero-section {
+    position: relative;
+    min-height: 70vh;
+    background: url('./images/i1.jpg') no-repeat center center / cover;
+    z-index: 1;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.icon-step {
+    position: relative;
+    text-align: center;
+    flex: 1;
+    color: white;
+}
+
+.icon-step .circle {
+    width: 60px;
+    height: 60px;
+    background-color: #198754;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+}
+
+.icon-step .label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.icon-step::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: -50%;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    z-index: 0;
+}
+
+.icon-step:last-child::after {
+    display: none;
+}
+
+.option-card {
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.option-card:hover {
+    background-color: #198754;
+    /* Your green color */
+    color: white;
+}
+
+.option-card i {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-card {
+    background-color: #7ac144;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.stat-card {
+    padding: 1rem;
+    text-align: center;
+}
+
+.date-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #7ac144;
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.news-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.news-card:hover {
+    box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.btn-green {
+    background-color: #7ac144;
+    color: #fff;
+    border: none;
+}
+
+.btn-green:hover {
+    background-color: #6ab037;
+}
+
+.footer {
+    background: #fff;
+    padding: 60px 0 30px;
+}
+
+.footer .social-icons i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #7ac144;
+}
+
+.footer .footer-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #7ac144;
+}
+
+.footer a {
+    color: #00000090;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #7ac144;
+}
+
+.logo-icon {
+    font-size: 40px;
+    color: #7ac144;
+    margin-right: 10px;
+}
+
+.faq-answer {
+    border-left: 3px solid #8dc63f;
+    padding-left: 15px;
+    margin-top: 15px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-list i {
+    color: #8dc63f;
+    margin-right: 8px;
+}
+
+.faq-list .text-muted i {
+    color: lightgray;
+}

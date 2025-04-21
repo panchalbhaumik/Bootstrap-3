@@ -52,7 +52,7 @@
     position: absolute;
     top: 30px;
     right: -50%;
-    width: 100%;
+    width: 70%;
     height: 2px;
     background-color: white;
     z-index: 0;
@@ -82,7 +82,7 @@
 }
 
 .testimonial-card {
-    background-color: #7ac144;
+    background-color: #198754;
     color: white;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -97,7 +97,7 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background-color: #7ac144;
+    background-color: #198754;
     color: white;
     padding: 0.5rem;
     font-weight: bold;
@@ -116,13 +116,13 @@
 }
 
 .btn-green {
-    background-color: #7ac144;
+    background-color: #198754;
     color: #fff;
     border: none;
 }
 
 .btn-green:hover {
-    background-color: #6ab037;
+    background-color: #198754;
 }
 
 .footer {
@@ -133,13 +133,13 @@
 .footer .social-icons i {
     font-size: 18px;
     margin-right: 10px;
-    color: #7ac144;
+    color: #198754;
 }
 
 .footer .footer-title {
     font-weight: 600;
     margin-bottom: 20px;
-    color: #7ac144;
+    color: #198754;
 }
 
 .footer a {
@@ -148,17 +148,17 @@
 }
 
 .footer a:hover {
-    color: #7ac144;
+    color: #198754;
 }
 
 .logo-icon {
     font-size: 40px;
-    color: #7ac144;
+    color: #198754;
     margin-right: 10px;
 }
 
 .faq-answer {
-    border-left: 3px solid #8dc63f;
+    border-left: 3px solid #198754;
     padding-left: 15px;
     margin-top: 15px;
     background: #f9f9f9;
@@ -172,7 +172,7 @@
 }
 
 .faq-list i {
-    color: #8dc63f;
+    color: #198754;
     margin-right: 8px;
 }
 

@@ -2,6 +2,15 @@
     color: rgb(38, 206, 38);
 }
 
+.custom-btn {
+    background-color: #81c63c;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: #5ba510;
+}
+
 .hero-section {
     position: relative;
     min-height: 70vh;
@@ -30,7 +39,7 @@
 .icon-step .circle {
     width: 60px;
     height: 60px;
-    background-color: #198754;
+    background-color: #81c63c;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -71,7 +80,7 @@
 }
 
 .option-card:hover {
-    background-color: #198754;
+    background-color: #81c63c;
     /* Your green color */
     color: white;
 }
@@ -82,7 +91,7 @@
 }
 
 .testimonial-card {
-    background-color: #198754;
+    background-color: #81c63c;
     color: white;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -92,7 +101,7 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background-color: #198754;
+    background-color: #81c63c;
     color: white;
     padding: 0.5rem;
     font-weight: bold;
@@ -111,13 +120,13 @@
 }
 
 .btn-green {
-    background-color: #198754;
+    background-color: #81c63c;
     color: #fff;
     border: none;
 }
 
 .btn-green:hover {
-    background-color: #198754;
+    background-color: #81c63c;
 }
 
 .footer {
@@ -128,13 +137,13 @@
 .footer .social-icons i {
     font-size: 18px;
     margin-right: 10px;
-    color: #198754;
+    color: #81c63c;
 }
 
 .footer .footer-title {
     font-weight: 600;
     margin-bottom: 20px;
-    color: #198754;
+    color: #81c63c;
 }
 
 .footer a {
@@ -143,17 +152,17 @@
 }
 
 .footer a:hover {
-    color: #198754;
+    color: #81c63c;
 }
 
 .logo-icon {
     font-size: 40px;
-    color: #198754;
+    color: #81c63c;
     margin-right: 10px;
 }
 
 .faq-answer {
-    border-left: 3px solid #198754;
+    border-left: 3px solid #81c63c;
     padding-left: 15px;
     margin-top: 15px;
     background: #f9f9f9;
@@ -167,7 +176,7 @@
 }
 
 .faq-list i {
-    color: #198754;
+    color: #81c63c;
     margin-right: 8px;
 }
 
@@ -187,7 +196,7 @@
 }
 
 .info-box h3 {
-    color: #198754;
+    color: #81c63c;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 10px;
@@ -241,4 +250,20 @@
 
 .info-box.bg-hover::before {
     background-image: var(--img);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    border: none;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #fff;
 }

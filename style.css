@@ -265,3 +265,7 @@
     opacity: 1;
     background-color: #fff;
 }
+
+.border-lightgreen {
+    border-color: #81c63c !important;
+}
